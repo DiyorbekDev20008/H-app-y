@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+:root{
+    --black: #222;
+    --gray: #666;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+.container{
+    width: 1140px;
+}
+.btn{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFF;
+    border: none;
+    background: var(--black);
+    height: 40px;
+    width: 172px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+header{
+    padding: 25px 22px;
+    background: white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--gray);
+    padding-right: 32px;
+}
+.main{
+    margin-top: 200px;
+}
+.main .container{
+    display: flex;
+    justify-content: space-around;
+}
+.main .main-info{
+    margin-top: 45px;
+}
+.main h1{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    margin: 11px 0 18px 0;
+    color: var(--black);
+}
+.main h1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+.main .container{
+    margin-left: 130px;
+}
+.phone-gallery{
+    background: var(--black);
+    padding: 100px 0;
+    text-align: center;
+    padding-left: 200px;
+    color: #FFF;
+    margin-top: -305px;
+    position: relative;
+}
+.phone-gallery h3{
+    font-family: 'poppins';
+    font-size: 32px;
+    text-align: center;
+}
+.phone-gallery .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.phone-gallery .card{
+    background: #FFF;
+    border-radius: 20px;
+    padding-top: 40px;
+    flex: 20rem 1 0;
+}
+.phone-gallery .card-body{
+    background: #f2f2f2;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -170px;
+    position: relative;
+    padding: 50px;
+}
+.phone-gallery h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.phone-gallery h2{
+    font-weight: 400;
+}
+.card .primary {
+    color: blue;
+    margin-top: 10px;
+}
+.card .Red{
+    color: red;
+}
+.card p{
+    color: black;
+}
